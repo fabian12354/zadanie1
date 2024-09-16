@@ -3,7 +3,7 @@
 public partial class MainPage : ContentPage
 {
     string _fileName = Path.Combine(FileSystem.AppDataDirectory, "notes.txt");
-    Editor editor;
+    
     
     public MainPage()
     {
